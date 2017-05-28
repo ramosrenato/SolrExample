@@ -1,0 +1,39 @@
+2017-05-20 18:16:01.660 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.8.v20160314
+2017-05-20 18:16:03.068 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 6.3.0
+2017-05-20 18:16:03.069 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2017-05-20 18:16:03.070 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: C:\data\workspaces\renatoramos\solr-example
+2017-05-20 18:16:03.139 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2017-05-20T18:16:03.072Z
+2017-05-20 18:16:03.141 INFO  (main) [   ] o.a.s.s.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2017-05-20 18:16:03.165 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: C:\data\workspaces\renatoramos\solr-example\server\solr
+2017-05-20 18:16:03.173 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\data\workspaces\renatoramos\solr-example\server\solr\solr.xml
+2017-05-20 18:16:03.993 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2017-05-20 18:16:04.101 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath C:\data\workspaces\renatoramos\solr-example\server\solr
+2017-05-20 18:16:04.109 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [basic]
+2017-05-20 18:16:04.159 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@5c10f1c3{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2017-05-20 18:16:04.159 INFO  (main) [   ] o.e.j.s.Server Started @4039ms
+2017-05-20 18:16:04.232 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader [basic] Added 51 libs to classloader, from paths: [/C:/data/workspaces/renatoramos/solr-example/contrib/clustering/lib, /C:/data/workspaces/renatoramos/solr-example/contrib/extraction/lib, /C:/data/workspaces/renatoramos/solr-example/contrib/langid/lib, /C:/data/workspaces/renatoramos/solr-example/contrib/velocity/lib, /C:/data/workspaces/renatoramos/solr-example/dist]
+2017-05-20 18:16:05.362 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.3.0
+2017-05-20 18:16:05.598 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [basic] Schema name=example-basic
+2017-05-20 18:16:06.479 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema Loaded schema example-basic/1.6 with uniqueid field id
+2017-05-20 18:16:06.588 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'basic' using configuration from instancedir C:\data\workspaces\renatoramos\solr-example\server\solr\basic
+2017-05-20 18:16:06.641 INFO  (coreLoadExecutor-6-thread-1) [   x:basic] o.a.s.c.SolrCore [[basic] ] Opening new SolrCore at [C:\data\workspaces\renatoramos\solr-example\server\solr\basic], dataDir=[C:\data\workspaces\renatoramos\solr-example\server\solr\basic\data\]
+2017-05-20 18:16:06.734 INFO  (coreLoadExecutor-6-thread-1) [   x:basic] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-05-20 18:16:07.304 INFO  (coreLoadExecutor-6-thread-1) [   x:basic] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-05-20 18:16:07.305 INFO  (coreLoadExecutor-6-thread-1) [   x:basic] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-05-20 18:16:07.332 INFO  (coreLoadExecutor-6-thread-1) [   x:basic] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-05-20 18:16:07.332 INFO  (coreLoadExecutor-6-thread-1) [   x:basic] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-05-20 18:16:07.482 INFO  (coreLoadExecutor-6-thread-1) [   x:basic] o.a.s.s.SolrIndexSearcher Opening [Searcher@7d816388[basic] main]
+2017-05-20 18:16:07.492 INFO  (coreLoadExecutor-6-thread-1) [   x:basic] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\data\workspaces\renatoramos\solr-example\server\solr\basic\conf
+2017-05-20 18:16:07.513 INFO  (coreLoadExecutor-6-thread-1) [   x:basic] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-05-20 18:16:07.527 INFO  (coreLoadExecutor-6-thread-1) [   x:basic] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-05-20 18:16:07.532 INFO  (coreLoadExecutor-6-thread-1) [   x:basic] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: C:\data\workspaces\renatoramos\solr-example\server\solr\basic\conf\elevate.xml
+2017-05-20 18:16:07.564 INFO  (coreLoadExecutor-6-thread-1) [   x:basic] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-05-20 18:16:07.582 INFO  (searcherExecutor-7-thread-1-processing-x:basic) [   x:basic] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@7d816388[basic] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.3.0):C1)))}
+2017-05-20 18:16:07.582 INFO  (searcherExecutor-7-thread-1-processing-x:basic) [   x:basic] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-05-20 18:16:07.582 INFO  (searcherExecutor-7-thread-1-processing-x:basic) [   x:basic] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-05-20 18:16:07.583 INFO  (searcherExecutor-7-thread-1-processing-x:basic) [   x:basic] o.a.s.c.SolrCore [basic] Registered new searcher Searcher@7d816388[basic] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.3.0):C1)))}
+2017-05-20 18:16:09.935 INFO  (qtp63468833-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=726
+2017-05-20 18:16:24.515 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@5c10f1c3{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2017-05-20 18:16:24.516 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=736920911
+2017-05-20 18:16:24.518 INFO  (coreCloseExecutor-12-thread-1) [   x:basic] o.a.s.c.SolrCore [basic]  CLOSING SolrCore org.apache.solr.core.SolrCore@6177fad1
+2017-05-20 18:16:24.545 WARN  (ShutdownMonitor) [   ] o.e.j.s.ServletContextHandler ServletContextHandler.setHandler should not be called directly. Use insertHandler or setSessionHandler etc.
